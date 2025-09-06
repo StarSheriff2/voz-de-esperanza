@@ -16,11 +16,8 @@ theme = "custom"
 
 [module]
   [[module.mounts]]
-    source = "assets"
+    source = "themes/custom/assets"
     target = "assets"
-  [[module.mounts]]
-    source = "static"
-    target = "static"
   [[module.mounts]]
     source = "themes/custom/static"
     target = "static"
