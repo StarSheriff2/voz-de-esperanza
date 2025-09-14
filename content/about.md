@@ -1,5 +1,5 @@
 ---
 title: "About Us"
-description: "Learn about our mission to support underserved communities."
+description: "Learn about our mission, vision, and team at Voz de Esperanza."
 ---
-We strive to create a positive impact by supporting education, healthcare, and environmental sustainability for underserved communities.
+Voz de Esperanza is dedicated to empowering underserved communities through education, healthcare, and sustainability initiatives.

@@ -1,5 +1,5 @@
-+++
-date = '2025-09-13T17:29:46-06:00'
-draft = true
-title = 'Contact'
-+++
+---
+title: "Contact Us"
+description: "Reach out to Voz de Esperanza for partnerships or inquiries."
+---
+We're here to hear from you. Fill out the form below or email us at info@vozdeesperanza.org.
