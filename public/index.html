@@ -6,12 +6,142 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home | Voz de Esperanza</title>
   <meta name="description" content="Welcome to Voz de Esperanza, empowering communities.">
+  
+  <meta property="og:title" content="Home">
+  <meta property="og:description" content="Welcome to Voz de Esperanza, empowering communities.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="//localhost:1313/">
+  <meta property="og:image" content="//localhost:1313/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Home">
+  <meta name="twitter:description" content="Welcome to Voz de Esperanza, empowering communities.">
+  <meta name="twitter:image" content="//localhost:1313/">
   <link rel="stylesheet" href="/css/main.css">
 </head>
 <body class="bg-gray-100 font-sans">
   
-<h1>Welcome to Voz de Esperanza</h1>
-<p>This is a test page.</p>
+<section class="bg-blue-600 text-white py-16">
+  <div class="container mx-auto px-4 text-center">
+    <h1 class="text-4xl md:text-5xl font-bold mb-4">Welcome to Voz de Esperanza</h1>
+    <p class="text-lg md:text-xl mb-6">Empowering communities through sustainable initiatives.</p>
+    <a href="/contact" class="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-200 transition">Get Involved</a>
+  </div>
+</section>
 
+
+
+  
+
+
+
+
+<section class="py-12 bg-gray-100">
+  <div class="container mx-auto px-4 text-center">
+    <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Programs</h2>
+    <p class="text-lg text-gray-600 max-w-2xl mx-auto mb-6">We run initiatives to support education, healthcare, and sustainability in underserved communities.</p>
+    
+      <a href="/programs" class="bg-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700 transition">
+        Learn More
+      </a>
+    
+  </div>
+</section>
+
+
+  
+
+
+
+
+<section class="py-12 bg-white">
+  <div class="container mx-auto px-4 text-center">
+    <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Impact</h2>
+    <p class="text-lg text-gray-600 max-w-2xl mx-auto mb-6">Since 2020, we&#39;ve impacted over 10,000 lives through our community-driven projects.</p>
+    
+      <a href="/impact" class="bg-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700 transition">
+        See Our Work
+      </a>
+    
+  </div>
+</section>
+
+
+ -->
+  <header class="bg-white shadow">
+  <nav class="container mx-auto px-4 py-4 flex justify-between items-center" x-data="{ isOpen: false }">
+    <a href="/" class="text-2xl font-bold text-blue-600">Voz de Esperanza</a>
+    
+    <button @click="isOpen = !isOpen" class="md:hidden text-gray-700 focus:outline-none" type="button" aria-label="Open main menu">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+      </svg>
+    </button>
+    
+    <ul :class="{ 'hidden': !isOpen, 'block': isOpen }" class="hidden md:flex md:space-x-6">
+      <li><a href="/" class="text-gray-700 hover:text-blue-600 transition">Home</a></li>
+      <li><a href="/about" class="text-gray-700 hover:text-blue-600 transition">About</a></li>
+      <li><a href="/programs" class="text-gray-700 hover:text-blue-600 transition">Programs</a></li>
+      <li><a href="/impact" class="text-gray-700 hover:text-blue-600 transition">Impact</a></li>
+      <li><a href="/contact" class="text-gray-700 hover:text-blue-600 transition">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+  
+
+<section class="bg-blue-600 text-white py-16">
+  <div class="container mx-auto px-4 text-center">
+    <h1 class="text-4xl md:text-5xl font-bold mb-4">Welcome to Voz de Esperanza</h1>
+    <p class="text-lg md:text-xl mb-6">Empowering communities through sustainable initiatives.</p>
+    <a href="/contact" class="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-200 transition">Get Involved</a>
+  </div>
+</section>
+
+
+
+  
+
+
+
+
+<section class="py-12 bg-gray-100">
+  <div class="container mx-auto px-4 text-center">
+    <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Programs</h2>
+    <p class="text-lg text-gray-600 max-w-2xl mx-auto mb-6">We run initiatives to support education, healthcare, and sustainability in underserved communities.</p>
+    
+      <a href="/programs" class="bg-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700 transition">
+        Learn More
+      </a>
+    
+  </div>
+</section>
+
+
+  
+
+
+
+
+<section class="py-12 bg-white">
+  <div class="container mx-auto px-4 text-center">
+    <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Impact</h2>
+    <p class="text-lg text-gray-600 max-w-2xl mx-auto mb-6">Since 2020, we&#39;ve impacted over 10,000 lives through our community-driven projects.</p>
+    
+      <a href="/impact" class="bg-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700 transition">
+        See Our Work
+      </a>
+    
+  </div>
+</section>
+
+
+
+  <footer class="bg-gray-800 text-white py-6 mt-auto">
+  <div class="container mx-auto px-4 text-center">
+    <p>&copy; 2025 Voz de Esperanza. All rights reserved.</p>
+  </div>
+</footer>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </body>
 </html>
